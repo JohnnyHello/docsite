@@ -17,7 +17,7 @@ Yes. When you do not need to run training or inference workloads, you can releas
 - Python packages, system software, environment settings, and other reusable environment changes should be saved by clicking `Take Snapshot` before releasing the instance.
 - A Snapshot saves changes inside the instance, excluding DataDrive. Smaller Snapshots usually make it faster to create new instances later.
 
-DataDrive and Snapshot require a storage plan on the Storage Space page. You can allocate capacity between DataDrive and Snapshot based on your actual needs.
+DataDrive and Snapshot require a storage plan on the `Storage Space` page. You can allocate capacity between DataDrive and Snapshot based on your actual needs.
 
 ### 2. Where can I view files uploaded to DataDrive?
 
@@ -337,25 +337,3 @@ No. For general usage, there is no subscription fee, setup fee, or minimum usage
 ### 9. How are software or platform partners billed?
 
 Pricing can be evaluated based on usage volume, storage volume, and partnership model. For agency, resale, or platform cooperation, please contact the sales team to discuss an agreement.
-
-## Service Guarantee and Compensation
-
-### 1. Is an SLA provided?
-
-Yes. The platform currently provides service-level commitments for hardware and storage services:
-
-- Core hardware service: 99% availability.
-- DataDrive storage service: 99.9% availability.
-
-Specific terms are subject to the formal service agreement.
-
-### 2. If a service outage occurs, is there failover or compensation?
-
-If an instance becomes unavailable due to hardware or platform issues, we will investigate the outage duration and cause as quickly as possible, prioritize service and data recovery, and provide compensation where applicable.
-
-Reference basic compensation:
-
-- Outage of 1-3 hours: 6 hours of compensation.
-- Outage of 6-12 hours: 12 hours of compensation.
-
-If the outage causes data loss or unrecoverable task interruption, the platform will evaluate the impact case by case. Except for special cases such as physical disk failure, stored user data is generally not lost. We strongly recommend storing important data in DataDrive.
