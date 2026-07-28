@@ -17,7 +17,7 @@ Yes. When you do not need to run training or inference workloads, you can releas
 - Python packages, system software, environment settings, and other reusable environment changes should be saved by clicking `Take Snapshot` before releasing the instance.
 - A Snapshot saves changes inside the instance, excluding DataDrive. Smaller Snapshots usually make it faster to create new instances later.
 
-DataDrive and Snapshot require a storage plan on the Storage Space page. You can allocate capacity between DataDrive and Snapshot based on your actual needs.
+DataDrive and Snapshot require a storage plan on the `Storage Space` page. You can allocate capacity between DataDrive and Snapshot based on your actual needs.
 
 ### 2. Where can I view files uploaded to DataDrive?
 
@@ -71,7 +71,7 @@ Download: [https://glows.ai/datadrive](https://glows.ai/datadrive)
 
 ### 10. Can DataDrive data be synced directly across regions?
 
-Cross-region DataDrive sync is not currently supported. To move data from TW-01 to TW-02, download it locally first and then upload it to the DataDrive in the target region.
+Cross-region DataDrive sync is not currently supported. For example, to move data from TW-01 to TW-02, download it locally first and then upload it to the DataDrive in the target region.
 
 ### 11. Can Snapshots be exported?
 
@@ -81,7 +81,7 @@ No. Snapshot is an internal format used by the Glows.ai platform and does not cu
 
 Yes. DataDrive supports offline upload and download without starting a GPU instance.
 
-- DataDrive tutorial: [Datadrive](https://www.youtube.com/watch?v=_MtYfNKQ3xA)
+- DataDrive tutorial: [Datadrive](https://docs.glows.ai/docs/datadrive)
 - DataDrive PC version: [Download](https://glows.ai/datadrive)
 
 ### 13. Can I add or mount a DataDrive to a running VM?
