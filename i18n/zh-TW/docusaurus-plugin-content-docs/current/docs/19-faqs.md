@@ -17,7 +17,7 @@ sidebar_position: 19
 - Python 套件、系統軟體、環境設定等需要下次沿用的內容，建議在釋放執行個體前按一下 `Take Snapshot` 建立環境快照。
 - Snapshot 會保存 DataDrive 以外的執行個體內部變更。Snapshot 越小，後續從快照建立新執行個體通常越快。
 
-DataDrive 與 Snapshot 需在 Storage Space 頁面購買儲存方案。您可依實際需求分配 DataDrive 與 Snapshot 的容量。
+DataDrive 與 Snapshot 需在 `Storage Space` 頁面購買儲存方案。您可依實際需求分配 DataDrive 與 Snapshot 的容量。
 
 ### 2. 哪裡可以看到已上傳到 DataDrive 的檔案？
 
