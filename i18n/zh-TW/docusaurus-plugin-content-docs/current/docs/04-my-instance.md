@@ -17,10 +17,10 @@ sidebar_position: 4
 1. **Running**：實例正在運行，您可以對其進行訪問或管理操作。⚠️**只有在此狀態下，實例才會產生計費**，請妥善管理使用時間。
 2. **Suspending**：實例正在執行 Take Snapshot 操作，暫時無法進行其他管理操作。此狀態**不會產生額外計費**。
 3. **Terminated**：實例已被釋放，資源已回收，該狀態的實例無法再次啟動，**也不會再計費**。
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/01.png)
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/02.png)
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/03.png)
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/04.png)
+![](../../../../../docs/docs-images/p04/01.png)
+![](../../../../../docs/docs-images/p04/02.png)
+![](../../../../../docs/docs-images/p04/03.png)
+![](../../../../../docs/docs-images/p04/04.png)
 
 
 
@@ -35,7 +35,7 @@ sidebar_position: 4
 - **Cost**：當前實例已累積的費用。
 - **Action**：可對實例進行的操作（詳見下方操作介紹）。
 
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/05.png)
+![](../../../../../docs/docs-images/p04/05.png)
 
 
 ## **選項卡（Tabs）**
@@ -46,7 +46,7 @@ sidebar_position: 4
 
 取得與設定連接實例的存取方式。
 
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/06.png)
+![](../../../../../docs/docs-images/p04/06.png)
 
 - **SSH Port 22**
 
@@ -56,7 +56,7 @@ sidebar_position: 4
     - **User**：默認用戶名為 `root`。
     - **Password**：初始密碼（加密顯示）。
     - **SSH Key**：可改用金鑰登入取代密碼。您可至頁面的左側欄位點擊`Profile`後，點擊`SSH keys`進行設置。
-    ![](../../../../../docs/docs-images/p04/p04-zh-imgs/07.png)
+    ![](../../../../../docs/docs-images/p04/07.png)
 
 - **HTTP Port 8888**
   本端口預設部署的是 JupyterLab 服務，點擊 Open 即可直接訪問實例。
@@ -64,14 +64,14 @@ sidebar_position: 4
   - 提供以下操作：
     - **Open**：在新標籤頁中打開該連結。
     - **Copy**：複製 HTTP 地址。
-    ![](../../../../../docs/docs-images/p04/p04-zh-imgs/08.png)
+    ![](../../../../../docs/docs-images/p04/08.png)
 
 - **New Port Forwarding**：點擊此按鈕新增端口轉發規則。
-  ![](../../../../../docs/docs-images/p04/p04-zh-imgs/09.png)
+  ![](../../../../../docs/docs-images/p04/09.png)
   填入以下資訊：
   - **Service Port**：設定服務端口。
   - **Protocol**：選擇服務協定類型，預設為 TCP。若您要轉發的是 Web 類型服務（如 JupyterLab、Dashboard 等），請勾選 `HTTPS` 來啟用加密訪問（HTTPS），確保瀏覽器連線安全性。
-  ![](../../../../../docs/docs-images/p04/p04-zh-imgs/10.png)
+  ![](../../../../../docs/docs-images/p04/10.png)
 
 ### **2. Monitor**
 
@@ -80,7 +80,7 @@ sidebar_position: 4
    - **CPU Usage**：該實例目前的 CPU 使用率。
     - **Memory Usage**：目前記憶體使用量／總配置記憶體容量。
     - **Disk Usage**：目前磁碟使用量／總配置儲存空間。
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/11.png)
+![](../../../../../docs/docs-images/p04/11.png)
 
 ### **3. Billing**
 
@@ -93,7 +93,7 @@ sidebar_position: 4
     - **Duration**：該實例已運行的時長。
     - **Billing Method**：計費方式，可為 `Pay-as-you-go`（按量付費）或訂閱制。
     - **Discount**：目前套用的折扣。
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/12.png)
+![](../../../../../docs/docs-images/p04/12.png)
 
 ### **4. Config**
 
@@ -102,7 +102,7 @@ sidebar_position: 4
    - **Image**：該實例使用的映像檔名稱。
     - **Image Description**：該映像檔的詳細說明，包含所需硬體資源、作業系統、預裝套件版本等。
     - **Ports**：該映像檔預設開放的服務埠口。
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/13.png)
+![](../../../../../docs/docs-images/p04/13.png)
 
 ### **5. Datadrive**
 
@@ -110,7 +110,7 @@ sidebar_position: 4
 
    - **Mount Path**：Datadrive 在實例內的掛載路徑。
    - **Permissions**：該 Datadrive 的讀寫權限。
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/14.png)
+![](../../../../../docs/docs-images/p04/14.png)
 
 ### **6. Hardware**
 
@@ -123,13 +123,13 @@ sidebar_position: 4
     - **vCPUs**：分配的虛擬 CPU 核心數。
     - **RAM**：系統記憶體容量。
     - **Storage**：磁碟儲存空間容量。
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/15.png)
+![](../../../../../docs/docs-images/p04/15.png)
 
 ### **7. Network Group**
 
 查看實例的集群網路資訊。Glows.ai 支援多機多卡運行，您可以在 Mesh 中將多個實例加入同一個集群，使集群內的實例透過內網 IP 互相連通，實現更高效的運算協作。
 
-![](../../../../../docs/docs-images/p04/p04-zh-imgs/16.png)
+![](../../../../../docs/docs-images/p04/16.png)
 
 ---
 
@@ -148,7 +148,7 @@ sidebar_position: 4
 
 1. **點擊 Action 欄位中 `Take Snapshot` 按鈕，將彈出快照創建窗口。**
 
-   ![](../../../../../docs/docs-images/p04/p04-zh-imgs/17.png)
+   ![](../../../../../docs/docs-images/p04/17.png)
 
 2. **填寫快照資訊**：
 
@@ -156,19 +156,19 @@ sidebar_position: 4
    - **The instance will be automatically released after the process is completed**：
       若勾選此選項，快照製作完成後，實例將自動釋放；
      若未勾選，快照完成後實例將自動恢復為 Running 狀態，您可繼續使用該實例。
-        ![](../../../../../docs/docs-images/p04/p04-zh-imgs/18.jpg)
+        ![](../../../../../docs/docs-images/p04/18.jpg)
 
 
 3. **查看快照進程**：
 
    - 保存過程中，實例會從`Running`移動至 `Snapshotting` 的標籤頁：
 
-      ![](../../../../../docs/docs-images/p04/p04-zh-imgs/19.png)
+      ![](../../../../../docs/docs-images/p04/19.png)
 
 4. **完成後的影響**：
 
    - 快照保存過程中，實例將暫停運行，並在保存完成後自動恢復運行或釋放（取決於是否勾選自動釋放）。
-      ![](../../../../../docs/docs-images/p04/p04-zh-imgs/20.png)
+      ![](../../../../../docs/docs-images/p04/20.png)
 
 
 #### **注意事項**
@@ -187,28 +187,28 @@ sidebar_position: 4
 
 1. **點擊 Action 欄位中 `Release` 按鈕**，將彈出確認窗口。
 
-   ![](../../../../../docs/docs-images/p04/p04-zh-imgs/21.png)
+   ![](../../../../../docs/docs-images/p04/21.png)
 
 2. **確認釋放**：
 
-   ![](../../../../../docs/docs-images/p04/p04-zh-imgs/22.jpg)
+   ![](../../../../../docs/docs-images/p04/22.jpg)
    - 系統會提示相關注意事項，例如數據刪除與不可恢復性。
    - 點擊 `Stop & Release` 確認釋放操作。
 
 3. **釋放過程的狀態更新**：
 
    - 釋放後的實例位於 `Released` 區域。狀態將變為為 **Terminated**。
-   ![](../../../../../docs/docs-images/p04/p04-zh-imgs/23.png)
+   ![](../../../../../docs/docs-images/p04/23.png)
 
 
 4. **如何從 Snapshot 啟動新實例：**：
 
    - 創建實例的時候選擇 Snapshot，然後啟動實例即可。
-   ![](../../../../../docs/docs-images/p04/p04-zh-imgs/24.png)
+   ![](../../../../../docs/docs-images/p04/24.png)
 
 
    - 實例快照創建完成後：如果您沒有勾選保存完成後釋放實例，則可在 My Instance 介面中 Running 下看到實例，否則實例將會在快照結束後繼續運行。
-   ![](../../../../../docs/docs-images/p04/p04-zh-imgs/25.png)
+   ![](../../../../../docs/docs-images/p04/25.png)
 
 #### **注意**：快照創建期間，實例不可訪問，實例內運行程序會中斷，一般建議在使用完畢釋放機器之前進行快照創建。
 

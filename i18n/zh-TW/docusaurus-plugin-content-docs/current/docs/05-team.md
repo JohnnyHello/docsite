@@ -21,38 +21,38 @@ Glows.ai 的團隊版功能，將構建團隊協作體系，實現資源集中�
 
 登錄 Glows.ai 平台後，點擊右上角個人信息，在彈框中點擊 `Teams`，然後點擊 `Create Teams` 進入團隊創建流程。
 
-![Create Team Menu](../../../../../docs/docs-images/p05team/team-zh-imgs/01.png)
+![Create Team Menu](../../../../../docs/docs-images/p05team/01.png)
 
 目前有 Free 、 Basic 和 Premium 三個版本，您可以根據團隊項目需要選擇合適版本，如果有更進階需求，可以點擊`Contact us`聯繫我們客製化開發。
 
-![Select Team Plan](../../../../../docs/docs-images/p05team/team-zh-imgs/02.png)
+![Select Team Plan](../../../../../docs/docs-images/p05team/02.png)
 
 選擇好團隊套餐類型後，可以繼續設置團隊名稱和簡介信息。
 
-![Set Team Name](../../../../../docs/docs-images/p05team/team-zh-imgs/03.png)
+![Set Team Name](../../../../../docs/docs-images/p05team/03.png)
 
 選擇套餐購買時長，後續可以手動續費，然後點擊 `Next`。
 
-![Choose Plan Duration](../../../../../docs/docs-images/p05team/team-zh-imgs/04.png)
+![Choose Plan Duration](../../../../../docs/docs-images/p05team/04.png)
 
 
 確認信息無誤，點擊`Create Team`即可完成團隊創建。
 
-![Confirm Team Creation](../../../../../docs/docs-images/p05team/team-zh-imgs/05.png)
+![Confirm Team Creation](../../../../../docs/docs-images/p05team/05.png)
 
 
 創建成功後，您會看見團隊基本信息，您已成為該團隊的 **創建者**(**Owner**)，此身份會自動綁定到您個人帳號，未來可透過個人帳號進入團隊頁面。
 
 點擊 `Enter Team` 可直接進入團隊頁面。
 
-![Team Created](../../../../../docs/docs-images/p05team/team-zh-imgs/06.png)
+![Team Created](../../../../../docs/docs-images/p05team/06.png)
 
 
 ### 切換到團隊介面
 
 您可以從 Glows.ai 個人帳號頁面直接切換到團隊版本。按圖示點擊右上角個人信息，在彈框中點擊 `Teams`，然後點擊要進入的團隊。
 
-![Switch To Team](../../../../../docs/docs-images/p05team/team-zh-imgs/07.png)
+![Switch To Team](../../../../../docs/docs-images/p05team/07.png)
 
 
 ### 成員管理
@@ -63,7 +63,7 @@ Glows.ai 的團隊版功能，將構建團隊協作體系，實現資源集中�
 
 點擊 `Member` 介面中的 `Add Members` 按鈕進入添加成員流程。
 
-![Add Team Member](../../../../../docs/docs-images/p05team/team-zh-imgs/08.png)
+![Add Team Member](../../../../../docs/docs-images/p05team/08.png)
 
 
 可以設置新成員的：**帳號(Login Account)**、**密碼(Login Password)**、**角色(Role)**、**初始 Credit 額度(Assign Credit)**、**別名(Alias)**、**描述說明(Note)**。設置完成後點擊介面中的 `Add Member` 按鈕完成成員創建。
@@ -72,12 +72,12 @@ Glows.ai 的團隊版功能，將構建團隊協作體系，實現資源集中�
 
 分配額度(Assign Credits)是設定成員在加入團隊當下能獲得的初始點數，可以用於租用機器或者購買 **Storage Space 方案**，也可以創建後再分配。
 
-![New Member Form](../../../../../docs/docs-images/p05team/team-zh-imgs/09.png)
+![New Member Form](../../../../../docs/docs-images/p05team/09.png)
 
 
 創建成功後，可以點擊 `Copy Login Details` 獲取到新成員信息，然後將信息發送給對應成員。新成員登錄使用方法參考[普通成員登入方法](#加入團隊)
 
-![Copy Login Details](../../../../../docs/docs-images/p05team/team-zh-imgs/10.png)
+![Copy Login Details](../../../../../docs/docs-images/p05team/10.png)
 
 
 #### 儲值 Credits
@@ -85,30 +85,30 @@ Glows.ai 的團隊版功能，將構建團隊協作體系，實現資源集中�
 團隊中所有成員使用的任何 Credits 都需要先經由 **創建者**（**Owner**） 儲值到團隊中，再派發給成員使用。
 在團隊版頁面中，**創建者**（**Owner**）首先點擊右上方的 **Credits 信息**，再點擊 `Recharge` 開始進行儲值。
 
-![Recharge Credits](../../../../../docs/docs-images/p05team/team-zh-imgs/11.png)
+![Recharge Credits](../../../../../docs/docs-images/p05team/11.png)
 
 除了支持與個人版相同的 Credits 儲值方式之外，在團隊版中，**創建者**（**Owner**）可以使用個人帳號中的 Credits 儲值到團隊版帳戶中使用。
 
 選擇或填寫 **Credits 數量** 並選擇 `USD` 後，選擇 `Glows.ai Balance` ，點擊 `Recharge`，即可完成儲值。
-![Recharge From Balance](../../../../../docs/docs-images/p05team/team-zh-imgs/12.png)
+![Recharge From Balance](../../../../../docs/docs-images/p05team/12.png)
 
 
 #### 派發 Credits
 
 在 `Member` 介面中點擊對應成員後的 Action 按鈕，選擇 `Assign Credits`，進入派發 Credits 介面。
 
-![Assign Credits](../../../../../docs/docs-images/p05team/team-zh-imgs/13.png)
+![Assign Credits](../../../../../docs/docs-images/p05team/13.png)
 
 
 輸入派發金額後點擊 `Assign` 完成派發。
 
-![Confirm Assign Credits](../../../../../docs/docs-images/p05team/team-zh-imgs/14.png)
+![Confirm Assign Credits](../../../../../docs/docs-images/p05team/14.png)
 
 #### 收回 Credits
 
 在相同頁面中，選擇 `Reclaim Credits` 後，即可收回成員的 Credits。操作方式與派發 Credits 相同。
 
-![Reclaim Credits](../../../../../docs/docs-images/p05team/team-zh-imgs/15.png)
+![Reclaim Credits](../../../../../docs/docs-images/p05team/15.png)
 
 
 #### 資源可見性控制
@@ -120,22 +120,22 @@ Glows.ai 的團隊版功能，將構建團隊協作體系，實現資源集中�
 
 圖示中顯示的權限設置為：團隊成員只能使用 **TW-03**、**TW-04**區域的 **GPU** 類型機器，並只能選擇 **NVIDIA GeForce RTX 4090** 規格。
 
-![Machine Permissions](../../../../../docs/docs-images/p05team/team-zh-imgs/16.png)
+![Machine Permissions](../../../../../docs/docs-images/p05team/16.png)
 
 
 頁面下滑，繼續設置成員可以使用哪些官方基礎鏡像。圖示中顯示的權限設置為：團隊成員只能使用 **Gemma4 31B Q8** 及 **Qwen3.5-27B-Claude-4.6-Opus-Q8** 兩種鏡像創建實例。
 
-![Image Permissions](../../../../../docs/docs-images/p05team/team-zh-imgs/17.png)
+![Image Permissions](../../../../../docs/docs-images/p05team/17.png)
 
 
 最後還可以設置團隊成員實例資料、**Snapshots** 數量、**Storage Space** 可用空間等。
 
-![Resource Quota Settings](../../../../../docs/docs-images/p05team/team-zh-imgs/18.png)
+![Resource Quota Settings](../../../../../docs/docs-images/p05team/18.png)
 
 
 設置完成後，點擊右上角的 `Save` 按鈕即可保存設置。將來團隊成員在創建實例時點擊 `Create New` 所能挑選的機器，將會限定於 `Permissions & Quota` 所設置的機器類型和環境。
 
-![Save Permissions](../../../../../docs/docs-images/p05team/team-zh-imgs/19.png)
+![Save Permissions](../../../../../docs/docs-images/p05team/19.png)
 
 
 
@@ -143,34 +143,34 @@ Glows.ai 的團隊版功能，將構建團隊協作體系，實現資源集中�
 
 在 `Member` 介面中點擊對應成員後的 `Details` 按鈕可以進入成員詳細面板介面。
 
-![Member Details Panel](../../../../../docs/docs-images/p05team/team-zh-imgs/20.png)
+![Member Details Panel](../../../../../docs/docs-images/p05team/20.png)
 
 
 目前支持修改成員的 **Name**、**Role**（例如：**Admin** 或 **Member**）、**Account Balance**、**Note**、**Login Password**。在詳細面板介面還可以看到該成員其他使用信息，比如：剩餘Credits、總花費、實例數量、存儲使用情況等。
 
-![Edit Member Info](../../../../../docs/docs-images/p05team/team-zh-imgs/21.png)
+![Edit Member Info](../../../../../docs/docs-images/p05team/21.png)
 
 
 點擊該介面右上角的 `Edit Permission` 按鈕，可以設置單個成員的資源可見性，可以實現讓不同成員看到不同的機器資源和鏡像資源。
 
-![Edit Permission](../../../../../docs/docs-images/p05team/team-zh-imgs/22.png)
+![Edit Permission](../../../../../docs/docs-images/p05team/22.png)
 
 將 **Use Team Default Permission** 從 `On` 改為 `Off` 即可進行設置。
 
-![Individual Permission](../../../../../docs/docs-images/p05team/team-zh-imgs/23.png)
+![Individual Permission](../../../../../docs/docs-images/p05team/23.png)
 
 
 #### 成員實例管理
 
 在 `Instances` 介面中點擊 `Admin View`，可以看到所有成員的實例紀錄和運行情況。
 
-![Admin View Instances](../../../../../docs/docs-images/p05team/team-zh-imgs/24.png)
+![Admin View Instances](../../../../../docs/docs-images/p05team/24.png)
 
 
 
 點擊想要關閉的成員實例數據條中的 `Action`，再點擊 `Release` 即可直接釋放該成員實例。
 
-![Release Instance](../../../../../docs/docs-images/p05team/team-zh-imgs/25.png)
+![Release Instance](../../../../../docs/docs-images/p05team/25.png)
 
 
 ### Storage Space 管理
@@ -181,92 +181,92 @@ Glows.ai 的團隊版功能，將構建團隊協作體系，實現資源集中�
 
 **請注意**：訂閱團隊共享 Storage Space 方案時，請按圖示步驟先點擊 `Admin View`，如果於 `Member View` 下則是訂閱團隊版之中的個人 Storage Space 方案。
 
-![Upgrade Storage Plan](../../../../../docs/docs-images/p05team/team-zh-imgs/26.png)
+![Upgrade Storage Plan](../../../../../docs/docs-images/p05team/26.png)
 
 
 #### 分配團隊共享 Storage Space
 
 在`Storage Space`介面選擇`Admin View`，可以看到團隊共享 Storage Space 的使用情況，以及每個成員在團隊版中的個人 Storage Space 的使用情況。
 
-![Storage Usage Overview](../../../../../docs/docs-images/p05team/team-zh-imgs/27.png)
+![Storage Usage Overview](../../../../../docs/docs-images/p05team/27.png)
 
 
 在`Storage Space`介面選擇`Admin View`後，點擊 **Team Storage Space** 的 `Manage` 按鈕，
 
-![Manage Team Storage](../../../../../docs/docs-images/p05team/team-zh-imgs/28.png)
+![Manage Team Storage](../../../../../docs/docs-images/p05team/28.png)
 
 進入團隊共享 Storage Space 分配介面後，點擊 `Modify`，即可設置 **Datadrive** 和 **Snapshot** 空間額度，最後點擊 `Update` 完成分配。分配方式與個人版相同。
 
-![Allocate Storage Quota](../../../../../docs/docs-images/p05team/team-zh-imgs/29.png)
+![Allocate Storage Quota](../../../../../docs/docs-images/p05team/29.png)
 
 
 ### 共享 Datadrive 管理
 
 點擊側邊欄的 `Datadrive` 後於介面選擇 `Admin View` ，可以看到團隊共享 Datadrive 的使用情況，還有每個團隊成員個人 Datadrive 的使用情況。
 
-![Datadrive Usage Overview](../../../../../docs/docs-images/p05team/team-zh-imgs/30.png)
+![Datadrive Usage Overview](../../../../../docs/docs-images/p05team/30.png)
 
 
 點擊 `Team Datadrive` 的 `Manage` 按鈕，進入團隊 Datadrive 管理介面。
 
-![Manage Team Datadrive](../../../../../docs/docs-images/p05team/team-zh-imgs/31.png)
+![Manage Team Datadrive](../../../../../docs/docs-images/p05team/31.png)
 
 在此介面中可以看見不同**區域**（**Region**）的共享 Datadrive 的檔案總覽，只有團隊**創建者**（**Owner**）和管理員有權限在團隊共享 Datadrive 上傳和刪除檔案，所有成員均可以 下載（**Download**）檔案。
 
-![Datadrive File List](../../../../../docs/docs-images/p05team/team-zh-imgs/32.png)
+![Datadrive File List](../../../../../docs/docs-images/p05team/32.png)
 
 
 
 其他成員在創建實例時可以選擇掛載團隊共享Datadrive，實例中的路徑為`/team_data`，普通成員只有可讀權限，團隊創建者和管理員有讀寫權限。
 
-![Mount Team Datadrive](../../../../../docs/docs-images/p05team/team-zh-imgs/33.png)
+![Mount Team Datadrive](../../../../../docs/docs-images/p05team/33.png)
 
 
 ### Snapshots 管理
 
 在 `Snapshots` 介面選擇 `Admin View`，可以看到團隊和每個團隊成員個人創建的 Snapshot。
 
-![Snapshots Overview](../../../../../docs/docs-images/p05team/team-zh-imgs/34.png)
+![Snapshots Overview](../../../../../docs/docs-images/p05team/34.png)
 
 
 #### 設置團隊共享 Snapshot
 
 只需要點擊想要轉變到團隊共享的 Snapshot 後的 `Details`，然後再選擇 `Share to team` 即可將成員創建的 Snapshot 變成團隊共享 Snapshot。
 
-![Share Snapshot](../../../../../docs/docs-images/p05team/team-zh-imgs/35.png)
+![Share Snapshot](../../../../../docs/docs-images/p05team/35.png)
 
 
 #### 使用團隊共享 Snapshot
 
 其他成員創建實例的時候，選擇 Snapshot，就可以看到團隊共享的 Snapshot 了，團隊共享的 Snapshot 右上角也會有一個 **Team** 標記。
 
-![Use Shared Snapshot](../../../../../docs/docs-images/p05team/team-zh-imgs/36.png)
+![Use Shared Snapshot](../../../../../docs/docs-images/p05team/36.png)
 
 
 #### 管理團隊 Snapshot
 
 在 `Snapshots` 介面選擇 `Admin View` 後，點擊 `Team Shared Snapshots` 模塊右上角的 `Manage` 按鈕，即可進入管理團隊 Snapshot 介面。
 
-![Manage Shared Snapshots](../../../../../docs/docs-images/p05team/team-zh-imgs/37.png)
+![Manage Shared Snapshots](../../../../../docs/docs-images/p05team/37.png)
 
 
 在這個介面可以看到所有團隊 Snapshot，目前只支持刪除操作，選擇不需要的 Snapshot 點擊 `Action` 中的 `Delete` 按鈕即可刪除。
 
 **注意**： 團隊Snapshot執行刪除操作後，會徹底刪除，無法找回，請謹慎操作。
 
-![Delete Snapshot](../../../../../docs/docs-images/p05team/team-zh-imgs/38.png)
+![Delete Snapshot](../../../../../docs/docs-images/p05team/38.png)
 
 
 ### Billing 管理
 
 在 `Billing` 介面選擇 `Admin View`，可以看到團隊所有成員的帳單數據。
 
-![Team Billing Overview](../../../../../docs/docs-images/p05team/team-zh-imgs/39.png)
+![Team Billing Overview](../../../../../docs/docs-images/p05team/39.png)
 
 帳單查詢支援依成員與帳單類型進行篩選。
 
-![Filter By Member](../../../../../docs/docs-images/p05team/team-zh-imgs/40.png)
-![Filter By Type](../../../../../docs/docs-images/p05team/team-zh-imgs/41.png)
+![Filter By Member](../../../../../docs/docs-images/p05team/40.png)
+![Filter By Type](../../../../../docs/docs-images/p05team/41.png)
 
 
 
@@ -277,8 +277,8 @@ Glows.ai 的團隊版功能，將構建團隊協作體系，實現資源集中�
 
 在`Team Setting`介面點擊右上角的`Edit`按鈕，可以編輯團隊的名稱和描述信息。
 
-![Edit Team Info](../../../../../docs/docs-images/p05team/team-zh-imgs/42.png)
-![Team Info Saved](../../../../../docs/docs-images/p05team/team-zh-imgs/43.png)
+![Edit Team Info](../../../../../docs/docs-images/p05team/42.png)
+![Team Info Saved](../../../../../docs/docs-images/p05team/43.png)
 
 
 ## 管理員使用教程
@@ -289,7 +289,7 @@ Glows.ai 的團隊版功能，將構建團隊協作體系，實現資源集中�
 
 普通成員僅支持以下功能：創建實例（Create New）、實例管理(Instances)、Datadrive管理(Datadrive)、Snapshot管理(Snapshots)、Storage管理(Storage Space)、帳單查詢(Billing)、個人信息修改(Profile)，和Glows.ai主網操作一致，具體請看[Glows.ai使用手冊](https://docs.glows.ai/docs/create-new)。
 
-![Member Feature List](../../../../../docs/docs-images/p05team/team-zh-imgs/44.png)
+![Member Feature List](../../../../../docs/docs-images/p05team/44.png)
 
 ### 加入團隊
 
@@ -303,7 +303,7 @@ Glows.ai 的團隊版功能，將構建團隊協作體系，實現資源集中�
 https://platform.glows.ai/team/login
 ```
 
-![Team Login Page](../../../../../docs/docs-images/p05team/team-zh-imgs/45.png)
+![Team Login Page](../../../../../docs/docs-images/p05team/45.png)
 
 
 
@@ -311,17 +311,17 @@ https://platform.glows.ai/team/login
 
 登入 Glows.ai 主網後，點擊右上角個人頭像，選擇 **`Teams`->`Join Team`**。
 
-![Join Team Menu](../../../../../docs/docs-images/p05team/team-zh-imgs/46.png)
+![Join Team Menu](../../../../../docs/docs-images/p05team/46.png)
 
 在 Join Team 介面輸入團隊帳號密碼，即可將 Glows.ai 個人帳號和團隊綁定，往後就可以直接在個人頁面中切換至團隊頁面了，無需再次使用團隊版帳號密碼登入。
 
-![Join Team Form](../../../../../docs/docs-images/p05team/team-zh-imgs/47.png)
+![Join Team Form](../../../../../docs/docs-images/p05team/47.png)
 
 
 
 不論用哪一種方式登入，首次登錄後會需要重置密碼。
 
-![Reset Password](../../../../../docs/docs-images/p05team/team-zh-imgs/48.png)
+![Reset Password](../../../../../docs/docs-images/p05team/48.png)
 
 ### 獲取Credits
 
@@ -331,7 +331,7 @@ https://platform.glows.ai/team/login
 
 點擊 `Create New`，選擇自己需要租用的顯卡和環境。
 
-![Create Instance](../../../../../docs/docs-images/p05team/team-zh-imgs/49.png)
+![Create Instance](../../../../../docs/docs-images/p05team/49.png)
 
 下滑可以看到實例相關配置，團隊版中除了 **Mount Team Datadrive** 之外，其餘設置與個人版相同。設置完畢後點擊 `Complete Checkout` 即可完成實例創建。
 
@@ -340,11 +340,11 @@ https://platform.glows.ai/team/login
 - **Mount Team Datadrive**：可選擇掛載團隊共享 Datadrive 到實例中的 `/team_data` 目錄下，團隊**創建者**（**Owner**）和**管理員**（**Admin**）有寫入和讀取權限，普通成員只有讀取權限。
 - **Bind Public IP Address**：綁定固定 IP。
 
-![Instance Configuration](../../../../../docs/docs-images/p05team/team-zh-imgs/50.png)
+![Instance Configuration](../../../../../docs/docs-images/p05team/50.png)
 
 團隊一般成員掛載 Team Datadrive 只有**可讀權限**（**Read only**），而團隊**創建者**（**Owner**）和**管理員**（**Admin**）有**寫入和讀取權限**（**Read & Write**）。
 
-![Datadrive Read Only](../../../../../docs/docs-images/p05team/team-zh-imgs/51.png)
+![Datadrive Read Only](../../../../../docs/docs-images/p05team/51.png)
 
 
 ### 實例管理
@@ -359,7 +359,7 @@ https://platform.glows.ai/team/login
 
 使用完成後，可以在 `Action` 中可以選擇 `Release` 釋放實例，或者 `Take Snapshot` 創建一個快照。
 
-![Release Or Snapshot](../../../../../docs/docs-images/p05team/team-zh-imgs/52.png)
+![Release Or Snapshot](../../../../../docs/docs-images/p05team/52.png)
 
 ### 其他功能
 

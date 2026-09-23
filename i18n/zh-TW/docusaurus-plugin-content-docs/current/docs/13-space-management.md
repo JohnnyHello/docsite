@@ -9,6 +9,20 @@ sidebar_position: 13
 
 ---
 
+## **Snapshot 與 Image 計費方式調整通知**
+
+為提供更彈性且便利的環境與資料管理體驗，平台將於 **2026 年 12 月 1 日 00:00（UTC+8）** 起調整 Snapshot 與 Image 的配額及計費機制。
+調整後，Storage 套餐配額將僅適用於 Datadrive 儲存空間；Snapshot 與 Image 將不再佔用 Storage 配額，並改採依實際使用容量進行按時計費。
+新的計費規則如下：
+- 計費單價：0.0001 credits / 小時 / GB
+- 當 Snapshot 或 Image 建立成功後，系統將開始計費
+- 當 Snapshot 或 Image 被刪除後，系統將停止計費
+
+此調整旨在讓用戶能更靈活地管理儲存資源，並依實際使用情況進行成本管理。
+
+如有任何疑問，請透過以下方式聯繫我們：
+[點擊這裡聯繫我們](/docs/contact-us)
+
 ## **Space Storage**
 
 頁面最上方顯示 **Space Storage** 的比例條，清楚展示當前的使用情況，**Storage Space** 總空間可以讓你分配至三種用途，分別是 **Snapshot**, **Datadrive** 以及**Image**。

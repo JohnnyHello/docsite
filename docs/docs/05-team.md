@@ -3,313 +3,370 @@ id: team
 sidebar_position: 5
 ---
 
-# Glows.ai Team User Guide
+# Glows.ai Team Edition Tutorial
 
-**Glows.ai Team** enables team collaboration, centralized resource management, flexible quota allocation, and secure sharing mechanisms—designed to meet enterprise-level requirements for shared cloud resource utilization.
+Glows.ai's Team Edition builds a team collaboration system with centralized resource management, flexible quota allocation, and a secure sharing mechanism, meeting the cloud resource sharing needs of enterprise-level users.
 
-Glows.ai Team brings teams together with unified resource management, dynamic quota control, and secure data sharing. It is built for effortless collaboration across shared cloud environments.
+This tutorial is divided into three parts:
 
-This guide includes:
-
-- [Owner Guide](#owner-guide)
-- [Admin Guide](#administrator-guide)
-- [Member Guide](#member-guide)
+- [Owner Tutorial](#owner-tutorial)
+- [Admin Tutorial](#admin-tutorial)
+- [Member Tutorial](#member-tutorial)
 
 ------
 
-## Owner Guide
+## Owner Tutorial
 
-### Create a Team
+### Creating a Team
 
-After logging into the Glows.ai platform, click on your personal information in the top right corner, then click `Teams` in the pop-up window. Next, click `Create Teams` to enter the team creation process.
+After logging into the Glows.ai platform, click your profile info in the top-right corner, click `Teams` in the popup, and then click `Create Teams` to enter the team creation process.
 
-![image-20251106105639587](../docs-images/p05team/01.png)
+![Create Team Menu](../docs-images/p05team/01.png)
 
-Currently, there are two versions: Free and Basic. You can choose the appropriate version based on your team's project needs. If you have more advanced requirements, you can click `Contact us` to reach out for customized development.
+There are currently three plans: Free, Basic, and Premium. Choose the plan that best fits your team's project needs. If you have more advanced requirements, click `Contact us` to get in touch about custom development.
 
-![image-20251106105804030](../docs-images/p05team/02.png)
+![Select Team Plan](../docs-images/p05team/02.png)
 
-After selecting the team package type, you can proceed to set the team name and description.
+After choosing a team plan type, you can continue setting the team name and description.
 
-![image-20251106140945551](../docs-images/p05team/03.png)
+![Set Team Name](../docs-images/p05team/03.png)
 
-Select the package purchase duration. You can renew manually later, and then click `Next`.
+Choose the plan duration to purchase — you can manually renew later — then click `Next`.
 
-![image-20251106110316717](../docs-images/p05team/04.png)
-
-Once you confirm that the information is correct, click `Create Team` to complete the team creation.
-
-![image-20251106110316717](../docs-images/p05team/0401.png)
-
-After successful creation, you will see the team's basic information. A default team creator account will be assigned, and it will be automatically bound to your main account.
-
-![image-20251106110316717](../docs-images/p05team/0402.png)
+![Choose Plan Duration](../docs-images/p05team/04.png)
 
 
-### Switch to Glows.ai Team Workspace
+Once you've confirmed the information is correct, click `Create Team` to finish creating the team.
 
-As a team owner, you can switch from your Glows.ai account to Glows.ai team workspace.
-Click your profile at the top right, select `Teams`, and then click on the team you wish to enter.
+![Confirm Team Creation](../docs-images/p05team/05.png)
 
-![image-20251106110954183](../docs-images/p05team/05.png)
+
+Once created, you'll see the team's basic information, and you'll become the team's **Owner**. This identity is automatically bound to your personal account, so you can access the team page from your personal account in the future.
+
+Click `Enter Team` to go directly to the team page.
+
+![Team Created](../docs-images/p05team/06.png)
+
+
+### Switching to the Team Interface
+
+You can switch to the Team Edition directly from your Glows.ai personal account page. As shown, click your profile info in the top-right corner, click `Teams` in the popup, and then click the team you want to enter.
+
+![Switch To Team](../docs-images/p05team/07.png)
+
 
 ### Member Management
 
-Owners or administrators can access the `Member` in the sidebar to manage team members.
-Supported features include: Add Members, Assign credits, Permission & Quota, editing member info, and managing instances.
+After logging in as the owner or an admin, click the `Member` tab in the left sidebar to manage members. Currently supported: **adding members**, **assigning credits**, **reclaiming member credits**, **resource visibility control**, **editing member basic information**, **member instance management**, and more.
 
-#### Add Members
+#### Adding a Member
 
-Click `Add Members` in the `Member` section to start adding team members.
+Click the `Add Members` button on the `Member` page to start adding a member.
 
-![image-20251106163030537](../docs-images/p05team/06.png)
+![Add Team Member](../docs-images/p05team/08.png)
 
-For each new member, you can define:
 
-- **Login Account**
-- **Login Password**
-- **Role**
-- **Initial Credits**
-- **Alias**
-- **Note**
+You can set the new member's **login account**, **login password**, **role**, **initial credit allocation (Assign Credit)**, **alias**, and **note**. Once done, click the `Add Member` button on the page to finish creating the member.
 
-After configuration, click `Add Member` to create the account.  
-The Role field currently supports two options: Admin (administrator) and Member (standard member).  
-**Assign Credits** allows you to give members initial credits for platform usage. These credits can be used to rent machines or buy storage, and you can also adjust or allocate them after the member is created.
+The **Role** currently supports **Admin** or **Member**.
 
-![image-20251106220229850](../docs-images/p05team/07.png)
+**Assign Credits** sets the initial number of credits a member receives upon joining the team, which can be used to rent machines or purchase a **Storage Space** plan. Credits can also be assigned after the member is created.
 
-After creation, click `Copy Login Details` to retrieve the new member's credentials and share them with them.
-Refer to [Member Login Guide](#join-a-team) for login instructions.
+![New Member Form](../docs-images/p05team/09.png)
 
-![image-20251106163746546](../docs-images/p05team/08.png)
 
-#### Assign Credits
+Once created, click `Copy Login Details` to get the new member's information, then send it to them. For how new members log in, see [Joining a Team](#joining-a-team).
 
-In `Member`, click the `Action` button next to a member and choose `Assign Credits`.
+![Copy Login Details](../docs-images/p05team/10.png)
 
-![image-20251107101615294](../docs-images/p05team/09.png)
 
-Enter the credit amount and click `Assign` to confirm.
+#### Recharging Credits
 
-![image-20251107114242664](../docs-images/p05team/10.png)
+Any credits used by team members must first be recharged into the team by the **Owner**, then assigned to members.
+On the Team Edition page, the **Owner** first clicks the **Credits info** in the top right, then clicks `Recharge` to start recharging.
 
-#### Permission & Quota
+![Recharge Credits](../docs-images/p05team/11.png)
 
-In `Permissions & Quota`, you can define what team members are allowed to see, including available GPUs, images, total instances, and total storage.
+In addition to supporting the same credit recharge methods as the personal edition, in the Team Edition the **Owner** can also recharge credits from their personal account into the team account.
 
-By clicking `Permissions & Quota`, you can access the permissions settings interface, where you control the compute resources visible to team members—such as `Region Permission`, `Instance Type`, and `Accelerator Permission`.
+Select or enter the **credit amount**, choose `USD`, then select `Glows.ai Balance` and click `Recharge` to complete the recharge.
+![Recharge From Balance](../docs-images/p05team/12.png)
 
-For example, in the screenshot below, team members can only use **NVIDIA GeForce RTX 4090** in the **TW-03 region**.
 
-![image-20251111112042995](../docs-images/p05team/11.png)
+#### Assigning Credits
 
-Scroll down to configure visible base images.
-For instance, you can limit members to use **CUDA12.8 Torch2.7.1 Base** only.
+On the `Member` page, click the Action button next to a member and select `Assign Credits` to open the assign credits page.
 
-![image-20251111112450861](../docs-images/p05team/12.png)
+![Assign Credits](../docs-images/p05team/13.png)
 
-You can also configure members’ `Snapshots Quota`, `Network Group Quota`, and `Storage Space Quota`.
 
-![image-20251111112632184](../docs-images/p05team/13.png)
+Enter the amount to assign and click `Assign` to complete the assignment.
 
-Click `Save` at the top right to apply settings. Members will only be able to select predefined hardware and environments in the **Create New** interface.
+![Confirm Assign Credits](../docs-images/p05team/14.png)
 
-![image-20251111134625409](../docs-images/p05team/14.png)
+#### Reclaiming Credits
 
-#### Modify Member Info
+On the same page, select `Reclaim Credits` to reclaim a member's credits. The process is the same as assigning credits.
 
-Click `Details` beside a member to modify information related to the team member.
+![Reclaim Credits](../docs-images/p05team/15.png)
 
-![image-20251111105908372](../docs-images/p05team/15.png)
 
-You can modify **Name**, **Role**, **Account Balance**, **Note**, and **Login Password**.
-You can also view usage details, including **Balance**, **Total Spending**, **Instance** count, and **Storage Space**.
+#### Resource Visibility Control
 
-![image-20251111105834255](../docs-images/p05team/16.png)
+In `Permissions & Quota`, you can set which GPUs, images, total available instances, and total storage space team members can see.
 
-Click `Edit Permission` to customize resource visibility for individual members, allowing each to see GPU or image resources differently.
+Click `Permissions & Quota` to open the permission settings page. First, you can control which machine resources are visible to team members, including: **Region**, **Type**, and **Accelerator**.
 
-#### Manage Instances for Team Member
+The example shown sets team members to only be able to use **GPU** type machines in the **TW-03** and **TW-04** regions, and only the **NVIDIA GeForce RTX 4090** spec.
 
-In `Instances`, select `Admin View` to monitor all members’ instances and status.
+![Machine Permissions](../docs-images/p05team/16.png)
 
-![image-20251111135707737](../docs-images/p05team/17.png)
 
-Click `Action` and then `Release` to release a member’s instance.
+Scroll down to continue setting which official base images members can use. The example shown restricts members to creating instances only with the **Gemma4 31B Q8** and **Qwen3.5-27B-Claude-4.6-Opus-Q8** images.
 
-![image-20251111135835939](../docs-images/p05team/18.png)
+![Image Permissions](../docs-images/p05team/17.png)
 
-### Storage Management
 
-#### Purchase Storage
+Finally, you can also set team members' instance data, number of **Snapshots**, available **Storage Space**, and more.
 
-On the `Storage Space` page, switch to `Admin View`, then click the `Upgrade` button to select the required plan. After that, click `Recharge` to complete the Storage purchase.
+![Resource Quota Settings](../docs-images/p05team/18.png)
 
-**Note:** To enable **team Storage**, you must first switch to `Admin View` as shown. If you purchase Storage under `Member View`, it will be **personal Storage**, not team Storage.
 
-![image-20251111164737613](../docs-images/p05team/19.png)
+Once done, click `Save` in the top right to save the settings. Going forward, the machines a team member can choose from when clicking `Create New` will be limited to the machine types and environments configured in `Permissions & Quota`.
 
-#### Allocate Storage
+![Save Permissions](../docs-images/p05team/19.png)
 
-In **`Storage Space`**, switch to **`Admin View`** to see overall and per-member storage usage.
 
-![image-20251106161942160](../docs-images/p05team/20.png)
 
-Click **Manage** under **Team Storage Space** to modify **Datadrive** and **Snapshot** quotas, then click **`Update`** to save.
+#### Editing Member Basic Information
 
-![image-20251106161942160](../docs-images/p05team/201.png)
+On the `Member` page, click the `Details` button next to a member to open the member details panel.
 
-### Datadrive Management
+![Member Details Panel](../docs-images/p05team/20.png)
 
-In `Datadrive` select `Admin View`, you can view and manage Datadrive usage for the entire team and each member.
 
-![image-20251111174340574](../docs-images/p05team/21.png)
+Currently you can edit a member's **Name**, **Role** (e.g., **Admin** or **Member**), **Account Balance**, **Note**, and **Login Password**. The details panel also shows other usage information for the member, such as remaining credits, total spending, number of instances, and storage usage.
 
-In `Team Datadrive`, click `Manage` to manage team Datadrive. Only the owner and admins can upload or delete data in the **Team Datadrive**.
+![Edit Member Info](../docs-images/p05team/21.png)
 
-![image-20251106165005102](../docs-images/p05team/22.png)
 
-When creating instances, members automatically mount the team drive at `/team_data`.  
-Members have **read-only** access, while owner and admins have **read/write** permissions.
+Click `Edit Permission` in the top right of this page to set the resource visibility for a single member, allowing different members to see different machine and image resources.
 
-![image-20251111183708701](../docs-images/p05team/23.png)
+![Edit Permission](../docs-images/p05team/22.png)
+
+Switch **Use Team Default Permission** from `On` to `Off` to configure it.
+
+![Individual Permission](../docs-images/p05team/23.png)
+
+
+#### Member Instance Management
+
+Click `Admin View` on the `Instances` page to see the instance records and running status of all members.
+
+![Admin View Instances](../docs-images/p05team/24.png)
+
+
+
+Click `Action` on the instance row of the member instance you want to shut down, then click `Release` to release that member's instance directly.
+
+![Release Instance](../docs-images/p05team/25.png)
+
+
+### Storage Space Management
+
+#### Subscribing to a Shared Team Storage Space Plan
+
+On the `Storage Space` page, select `Admin View`, then click `Upgrade` to choose the plan you need, and click `Recharge` to complete the Storage Space purchase.
+
+**Note**: When subscribing to a shared team Storage Space plan, follow the steps shown and click `Admin View` first. If you're in `Member View`, you'll instead be subscribing to a personal Storage Space plan within the team.
+
+![Upgrade Storage Plan](../docs-images/p05team/26.png)
+
+
+#### Allocating Shared Team Storage Space
+
+On the `Storage Space` page, select `Admin View` to see the usage of the team's shared Storage Space, as well as each member's personal Storage Space usage within the team.
+
+![Storage Usage Overview](../docs-images/p05team/27.png)
+
+
+On the `Storage Space` page, after selecting `Admin View`, click `Manage` under **Team Storage Space**,
+
+![Manage Team Storage](../docs-images/p05team/28.png)
+
+then, on the shared team Storage Space allocation page, click `Modify` to set the **Datadrive** and **Snapshot** space quotas, and finally click `Update` to complete the allocation. The allocation process is the same as in the personal edition.
+
+![Allocate Storage Quota](../docs-images/p05team/29.png)
+
+
+### Shared Datadrive Management
+
+Click `Datadrive` in the sidebar, then select `Admin View` on the page to see the usage of the team's shared Datadrive as well as each team member's personal Datadrive usage.
+
+![Datadrive Usage Overview](../docs-images/p05team/30.png)
+
+
+Click `Manage` under `Team Datadrive` to open the team Datadrive management page.
+
+![Manage Team Datadrive](../docs-images/p05team/31.png)
+
+Here you can see an overview of files in the shared Datadrive across different **regions**. Only the team's **Owner** and **Admins** have permission to upload and delete files in the shared team Datadrive; all members can **download** files.
+
+![Datadrive File List](../docs-images/p05team/32.png)
+
+
+
+When creating an instance, other members can choose to mount the shared team Datadrive, which appears at the path `/team_data` inside the instance. Regular members have read-only access, while the team owner and admins have read/write access.
+
+![Mount Team Datadrive](../docs-images/p05team/33.png)
+
 
 ### Snapshot Management
 
-In `Snapshots`, select `Admin View`, you can view all team and individual snapshots.
+On the `Snapshots` page, select `Admin View` to see snapshots created by the team as well as by each individual team member.
 
-![image-20251111181927368](../docs-images/p05team/24.png)
+![Snapshots Overview](../docs-images/p05team/34.png)
 
-#### Share Team Snapshots
 
-To make a member-created snapshot available to the team, select `Detail` for the target snapshot and then choose `Share to Team`.
+#### Setting a Shared Team Snapshot
 
-![image-20251111182221888](../docs-images/p05team/25.png)
+Click `Details` next to the snapshot you want to convert to a shared team snapshot, then select `Share to team` to turn a member-created snapshot into a shared team snapshot.
 
-#### Use Team Snapshots
+![Share Snapshot](../docs-images/p05team/35.png)
 
-When creating a new instance, you can find team snapshots under **Snapshot**, marked with a **Team** label.
 
-![image-20251111182908522](../docs-images/p05team/26.png)
+#### Using a Shared Team Snapshot
 
-#### Manage Team Snapshots
+When other members create an instance and select a snapshot, they'll be able to see shared team snapshots, which are marked with a **Team** badge in the top right corner.
 
-In `Snapshots`, after selecting `Admin View`, click `Manage` in the upper right corner of the `Team Shared Snapshots` module to access the team Snapshot management.
+![Use Shared Snapshot](../docs-images/p05team/36.png)
 
-![image-20251111184459744](../docs-images/p05team/27.png)
 
-All team snapshots are listed in this interface. Currently, the only supported operation is deletion. To delete a snapshot, select the item and choose `Delete` from the Action menu.
+#### Managing Team Snapshots
 
-**Note**: Deleting a team snapshot is a permanent action and cannot be restored. Please operate with caution.
+On the `Snapshots` page, after selecting `Admin View`, click `Manage` in the top right of the `Team Shared Snapshots` module to open the team snapshot management page.
 
-![image-20251111183957286](../docs-images/p05team/28.png)
+![Manage Shared Snapshots](../docs-images/p05team/37.png)
+
+
+Here you can see all team snapshots. Currently only deletion is supported — select the snapshot you no longer need and click `Delete` under `Action` to delete it.
+
+**Note**: Once a team snapshot is deleted, it is permanently removed and cannot be recovered. Please proceed with caution.
+
+![Delete Snapshot](../docs-images/p05team/38.png)
+
 
 ### Billing Management
 
-In the `Billing` interface, switch to `Admin View` to view the billing data for all team members. The billing query supports filtering by member and billing type.
+On the `Billing` page, select `Admin View` to see billing data for all team members.
 
-![image-20251111185112362](../docs-images/p05team/29.png)
+![Team Billing Overview](../docs-images/p05team/39.png)
 
-Additionally, in the **Billing** interface, you can click the **Recharge** button to add funds. It supports direct transfers from the main account, and you need to select `USD` for the `Select Your Payment Currency`.
+Billing lookups support filtering by member and by billing type.
 
-![image-20251111185112362](../docs-images/p05team/291.png)
+![Filter By Member](../docs-images/p05team/40.png)
+![Filter By Type](../docs-images/p05team/41.png)
 
-**Note:** Currently, the recharge function is only available to the team creator. The team creator must add funds first and then distribute them to team managers and regular members.
 
-### Edit Team Information
 
-Go to `Team Setting` and click `Edit` to modify the team name and description.
 
-![image-20251112102613576](../docs-images/p05team/30.png)
 
-------
 
-## Administrator Guide
+### Editing Team Information
 
-Administrators have the same permissions as the owner, except they **cannot create teams or perform recharges**.
-For more detailed instructions, please refer to the **Owner Guide**.
+On the `Team Setting` page, click `Edit` in the top right to edit the team's name and description.
 
-------
+![Edit Team Info](../docs-images/p05team/42.png)
+![Team Info Saved](../docs-images/p05team/43.png)
 
-## Member Guide
 
-Members can access the following functions: Create Instance (Create New), Instance Management (Instances), Datadrive Management (Datadrive), Snapshot Management (Snapshots), Storage Management (Storage Space), Billing (Billing), Profile Editing (Profile).
+## Admin Tutorial
 
-All actions work the same as on the Glows.ai platform. For more details, please refer to [Glows.ai User Guide](https://docs.glows.ai/docs/create-new)
+Aside from not being able to create a team or recharge credits, admins have the same permissions as the team owner. Please refer to [the Owner Tutorial](#owner-tutorial).
 
-![image-20251112112106430](../docs-images/p05team/31.png)
+## Member Tutorial
 
-### Join a Team
+Regular members only have access to the following features: creating instances (Create New), instance management (Instances), Datadrive management (Datadrive), Snapshot management (Snapshots), Storage management (Storage Space), billing lookups (Billing), and editing personal information (Profile). These work the same as on the main Glows.ai site — see the [Glows.ai User Guide](https://docs.glows.ai/docs/create-new) for details.
 
-After receiving credentials from the team owner or admin, members can join a team via the following methods.
+![Member Feature List](../docs-images/p05team/44.png)
 
-#### 1. Login via Team Link
+### Joining a Team
 
-Visit the Glows.ai team workspace login page in your browser, then enter your team account and password.
+Once a regular member receives a member account created by the team owner or an admin, they can join the team through two entry points.
+
+#### 1> Log in via the Team Edition link
+
+Visit the team login page below in your browser and enter the team account credentials.
 
 ```bash
 https://platform.glows.ai/team/login
 ```
 
-![image-20251112103024351](../docs-images/p05team/32.png)
+![Team Login Page](../docs-images/p05team/45.png)
 
-#### 2. Join via Glows.ai Platform
 
-Log in Glows.ai platform, click your avatar, and select **`Teams → Join Team`**.
 
-![image-20251112103513271](../docs-images/p05team/33.png)
+#### 2> Enter from the Glows.ai personal page
 
-Enter the team account and password to link your main account with the team. You can later switch between the Glows.ai platform account and Glows.ai team account directly.
+After logging into the main Glows.ai site, click your profile avatar in the top right and select **`Teams` -> `Join Team`**.
 
-![image-20251104150357896](../docs-images/p05team/34.png)
+![Join Team Menu](../docs-images/p05team/46.png)
 
-Whichever login method you choose, a password reset is required upon your initial login.
+On the Join Team page, enter the team account credentials to bind your Glows.ai personal account to the team. After that, you can switch to the team page directly from your personal page without logging in with the team account credentials again.
 
-![image-20251106165855089](../docs-images/p05team/35.png)
+![Join Team Form](../docs-images/p05team/47.png)
 
-### Request Credits
 
-Members who need credits need to apply to the owner or administrator.
 
-### Create an Instance
+Regardless of which method you use to log in, you'll be required to reset your password the first time you log in.
 
-Click `Create New`, select the GPU type and environment.
+![Reset Password](../docs-images/p05team/48.png)
 
-![image-20251112130821272](../docs-images/p05team/36.png)
+### Getting Credits
 
-Scroll down to configure `Datadrive` settings, then click `Complete Checkout`.
+If a team member needs credits, please request them from the team owner or an admin.
 
-- **Unit Qty:** Number of GPUs to rent (e.g., `2` means two GPUs).
-- **Mount Personal Datadrive:** (Optional) You can choose whether to mount your personal Datadrive.
-- **Mount Team Datadrive:** （Default) The team Datadrive is automatically mounted to `/team_data` directory in the instance, and members have read-only access.
-- **Bind Public IP Address:** Contact Glows.ai support if you need to bind public IP address.
+### Creating an Instance
 
-![image-20251112131149657](../docs-images/p05team/37.png)
+Click `Create New` and choose the GPU and environment you want to rent.
 
-### Manage Instances
+![Create Instance](../docs-images/p05team/49.png)
 
-After launching, view instance details in **Instances**.
+Scroll down to see the instance configuration. Aside from **Mount Team Datadrive**, the rest of the settings are the same as in the personal edition. Once configured, click `Complete Checkout` to finish creating the instance.
 
-- **Access:** Instance configuration details, commonly used options include SSH (Port 22) / JupyterLab (Port 8888).
-- **Monitor:** CPU/GPU metrics for the instance.
-- **Billing:** Detailed billing information for the instance.
-- **Config:** Instance configuration details, including software information for the startup image.
-- **Hardware:** Hardware specifications of the instance.
+- **Unit Qty**: The number of GPUs to rent. Setting this to 2 means renting 2 GPUs.
+- **Mount Personal Datadrive**: Choose whether to mount your personal Datadrive.
+- **Mount Team Datadrive**: Choose whether to mount the shared team Datadrive to the `/team_data` directory inside the instance. The team **Owner** and **Admins** have read/write access, while regular members only have read access.
+- **Bind Public IP Address**: Bind a static IP.
 
-After you finish using the instance, you can choose `Release` in the `Action` menu to release the instance, or select `Take Snapshot` to create a snapshot.
+![Instance Configuration](../docs-images/p05team/50.png)
 
-![image-20251112135257508](../docs-images/p05team/38.png)
+Regular team members only have **read-only** access when mounting the Team Datadrive, while the team **Owner** and **Admins** have **read & write** access.
+
+![Datadrive Read Only](../docs-images/p05team/51.png)
+
+
+### Instance Management
+
+Once an instance has started successfully, you can see the newly started instance on the Instances page. Click the instance to see more detailed information and additional actions.
+
+- **Access:** Access information for the instance — the most commonly used are SSH (Port 22) and JupyterLab (Port 8888).
+- **Monitor:** CPU and GPU resource monitoring for the instance.
+- **Billing:** Billing details for the instance.
+- **Config:** A description of the instance's configuration (details about the software in the instance's boot image).
+- **Hardware:** A description of the instance's hardware configuration.
+
+Once you're done using it, you can choose `Release` under `Action` to release the instance, or `Take Snapshot` to create a snapshot.
+
+![Release Or Snapshot](../docs-images/p05team/52.png)
 
 ### Other Features
 
-Management of **Datadrive**, **Snapshots**, **Storage Space**, **Billing**, and **Profile** is identical to the main Glows.ai site, please refer to the [Glows.ai User Guide](https://docs.glows.ai/docs/create-new)
-
-------
+Personal **Storage Space** within the Team Edition, along with **Datadrive** management, **Snapshots** management, billing lookups (Billing), and editing personal information (Profile), all work the same as on the personal edition page. Please refer to the [Glows.ai User Guide](https://docs.glows.ai/docs/create-new) for details.
 
 ## Contact Us
 
-If you have any questions or suggestions while using **Glows.ai**, please reach out via email, Discord, or Line.
+If you have any questions or suggestions while using Glows.ai, feel free to reach out to us via email, Discord, or Line.
 
 **Email:** [support@glows.ai](mailto:support@glows.ai)
 

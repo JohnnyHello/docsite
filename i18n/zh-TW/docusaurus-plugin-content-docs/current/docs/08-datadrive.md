@@ -12,20 +12,20 @@ Datadrive 是 Glows.ai 提供的雲端儲存空間，可在您建立實例時，
 ## **Datadrive主頁面**
 
 點擊側邊欄的 **Data Drive** 進入頁面，此頁面中會直接顯示您存放的資料，並提供多種操作功能。您可以透過直觀的介面管理您的數據文件。
-  ![](../../../../../docs/docs-images/p06/p06-zh-imgs/01.png)
+  ![](../../../../../docs/docs-images/p06/01.png)
 
 
 該頁面顯示不同區域的標籤頁，不同區域的 Datadrive 資料彼此獨立，例如：
   1. **JP-01**
   2. **TW-03**
   3. **TW-04**
-  ![](../../../../../docs/docs-images/p06/p06-zh-imgs/02.png)
+  ![](../../../../../docs/docs-images/p06/02.png)
 
 ---
 
 ## **主畫面按鈕功能**
 
-![](../../../../../docs/docs-images/p06/p06-zh-imgs/03.png)
+![](../../../../../docs/docs-images/p06/03.png)
 
 
 ### **1. Refresh**
@@ -46,10 +46,10 @@ Datadrive 是 Glows.ai 提供的雲端儲存空間，可在您建立實例時，
   >請注意：Datadrive 網頁版不支援上傳資料夾檔案功能，若需要上傳資料夾檔案，請使用 Datadrive 桌面版。
 - **操作流程**：
   1. 點擊 **Upload** 按鈕。
-  ![](../../../../../docs/docs-images/p06/p06-zh-imgs/04.png)
+  ![](../../../../../docs/docs-images/p06/04.png)
 
   2. 選擇要上傳的檔案。
-  ![](../../../../../docs/docs-images/p06/p06-zh-imgs/05.png)
+  ![](../../../../../docs/docs-images/p06/05.png)
 
   3. 上傳完成後，檔案將顯示於列表中。
 
@@ -63,7 +63,7 @@ Datadrive 是 Glows.ai 提供的雲端儲存空間，可在您建立實例時，
 - **Name**：檔案或資料夾的名稱。
 - **Size**：檔案或資料夾的大小。
 - **Last Modified**：檔案或資料夾的最後修改時間。
-![](../../../../../docs/docs-images/p06/p06-zh-imgs/06.png)
+![](../../../../../docs/docs-images/p06/06.png)
 
 
 ### **檔案操作按鈕（Actions）**
@@ -75,7 +75,7 @@ Datadrive 是 Glows.ai 提供的雲端儲存空間，可在您建立實例時，
 - **Move**：將檔案或資料夾移動到其他位置。
 - **Rename**：對名稱進行重新命名。
 - **Delete**：刪除指定的檔案或資料夾。
-![](../../../../../docs/docs-images/p06/p06-zh-imgs/07.png)
+![](../../../../../docs/docs-images/p06/07.png)
 
 
 ---
@@ -85,7 +85,7 @@ Datadrive 是 Glows.ai 提供的雲端儲存空間，可在您建立實例時，
 
  **操作流程**：
   1. 點擊 `Create New` 開始建立實例，在細項設定中的 **Mount Datadrive** 欄位點擊 `Mount`。
-    ![](../../../../../docs/docs-images/p06/p06-zh-imgs/08.png)
+    ![](../../../../../docs/docs-images/p06/08.png)
 
   2. **Mount Datadrive 彈窗的資訊**：
     - **Region**：選擇要掛載的 Datadrive 所在區域（例如：`TW-03`等）。
@@ -94,22 +94,22 @@ Datadrive 是 Glows.ai 提供的雲端儲存空間，可在您建立實例時，
     - **Mount Path**：Datadrive 掛載至實例後對應的路徑，預設為`/datadrive`。
     - **Permissions**：掛載後的讀寫權限，可選 `Read only` 或 `Read & write`。
     - 點擊`Mount`後，建立實例，即可成功掛載。
-      ![](../../../../../docs/docs-images/p06/p06-zh-imgs/09.png)
+      ![](../../../../../docs/docs-images/p06/09.png)
 
   3. **建立實例**：
 
       掛載成功後會顯示該 Datadrive 資訊，確認無誤後點擊 `Complete Checkout`，即可建立掛載了 Datadrive 的實例。
-      ![](../../../../../docs/docs-images/p06/p06-zh-imgs/10.png)
+      ![](../../../../../docs/docs-images/p06/10.png)
 
 ### 實例中使用 Datadrive
  
  **操作流程**：
   1. 建立掛載了 Datadrive 的實例後，在實例列表中，點擊該實例的 Datadrive 標籤，即可看到 Datadrive 資訊。
-  ![](../../../../../docs/docs-images/p06/p06-zh-imgs/11.png)
+  ![](../../../../../docs/docs-images/p06/11.png)
 
 
   2. 使用 SSH 進入實例後，透過預設路徑 `/datadrive`，即可成功存取 Datadrive 中的資料。
-   ![](../../../../../docs/docs-images/p06/p06-zh-imgs/12.png)
+   ![](../../../../../docs/docs-images/p06/12.png)
 
 ---
 

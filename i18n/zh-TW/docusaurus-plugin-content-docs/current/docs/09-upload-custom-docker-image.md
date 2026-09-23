@@ -10,6 +10,24 @@ description: '本教學示範如何將本地 Docker 鏡像上傳到 Glows.ai 使
 
 本教學將帶你一步步學會如何把本地 Docker 鏡像上傳到 Glows.ai 使用，從鏡像準備、打包到上傳和創建實例完整示範。
 
+---
+
+## **Snapshot 與 Image 計費方式調整通知**
+
+為提供更彈性且便利的環境與資料管理體驗，平台將於 **2026 年 12 月 1 日 00:00（UTC+8）** 起調整 Snapshot 與 Image 的配額及計費機制。
+調整後，Storage 套餐配額將僅適用於 Datadrive 儲存空間；Snapshot 與 Image 將不再佔用 Storage 配額，並改採依實際使用容量進行按時計費。
+新的計費規則如下：
+- 計費單價：0.0001 credits / 小時 / GB
+- 當 Snapshot 或 Image 建立成功後，系統將開始計費
+- 當 Snapshot 或 Image 被刪除後，系統將停止計費
+
+此調整旨在讓用戶能更靈活地管理儲存資源，並依實際使用情況進行成本管理。
+
+如有任何疑問，請透過以下方式聯繫我們：
+[點擊這裡聯繫我們](/docs/contact-us)
+
+
+
 ## 製作 Docker image tar 包
 
 要讓鏡像在 Glows.ai 正常運行，需注意以下事項：
