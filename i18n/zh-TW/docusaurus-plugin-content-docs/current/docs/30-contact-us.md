@@ -1,6 +1,6 @@
 ---
 id: contact-us
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # 聯繫我們
